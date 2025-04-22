@@ -1,0 +1,104 @@
+/* Table Style */
+table {
+  width: 100%;
+  margin: 20px 0;
+  border-collapse: collapse;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+/* Header Cell Style */
+th.mat-header-cell {
+  background-color: #3f51b5; /* Blue background */
+  color: #fff; /* White text */
+  padding: 12px;
+  font-weight: bold;
+  text-align: left;
+  text-transform: uppercase;
+  border-radius: 8px 8px 0 0; /* Rounded top corners */
+}
+
+/* Table Cell Style */
+td.mat-cell {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  color: #333;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+/* Row Hover Effect */
+tr.mat-row:hover {
+  background-color: #f5f5f5; /* Light gray */
+}
+
+/* Edit and Delete Button Style */
+button.mat-button {
+  font-size: 14px;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button.mat-button:hover {
+  transform: scale(1.05);
+}
+
+/* Save & Cancel Buttons */
+button.mat-button[color="primary"] {
+  background-color: #4caf50; /* Green */
+  color: white;
+  border: none;
+}
+
+button.mat-button[color="primary"]:hover {
+  background-color: #45a049; /* Darker green */
+}
+
+button.mat-button[color="warn"] {
+  background-color: #f44336; /* Red */
+  color: white;
+  border: none;
+}
+
+button.mat-button[color="warn"]:hover {
+  background-color: #e53935; /* Darker red */
+}
+
+/* Edit & Delete Buttons */
+button.mat-button[color="accent"] {
+  background-color: #ff9800; /* Orange */
+  color: white;
+  border: none;
+}
+
+button.mat-button[color="accent"]:hover {
+  background-color: #fb8c00; /* Darker orange */
+}
+
+/* Input Fields */
+input {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Aligning Actions Column */
+td.mat-cell ng-container {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/* Table Header Row */
+tr.mat-header-row {
+  background-color: #3f51b5;
+  color: white;
+}

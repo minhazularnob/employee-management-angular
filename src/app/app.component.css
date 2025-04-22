@@ -1,0 +1,45 @@
+/* Style for the entire page */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* Header style */
+h1 {
+  text-align: center;
+  color: #333;
+  font-size: 32px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+/* Navigation Menu style */
+nav {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #007bff;
+  font-size: 18px;
+  margin: 0 15px;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+/* Hover effect for links */
+nav a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+/* Horizontal rule (line) styling */
+hr {
+  border: 0;
+  border-top: 1px solid #ddd;
+  width: 80%;
+  margin: 20px auto;
+}
+
